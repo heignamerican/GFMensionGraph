@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'net.sf.jung:jung-graph-impl:2.0.1'
+    compile 'net.sf.jung:jung-visualization:2.0.1'
+}
+
+tasks.withType(AbstractCompile)*.options*.encoding = 'UTF-8'
+
+eclipse {
+    project {
+        name = 'GFMensionGraph'
+    }
+}
