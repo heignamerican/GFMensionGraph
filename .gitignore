@@ -1,0 +1,24 @@
+# https://github.com/github/gitignore/blob/master/Gradle.gitignore
+# 一部拡張
+
+.gradle
+/build/
+
+# for eclipse
+/.settings/
+/bin/
+/.classpath
+/.project
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+/bin/
