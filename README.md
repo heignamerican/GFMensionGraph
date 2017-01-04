@@ -11,7 +11,7 @@
 
 ### 表示
 
-[実行イメージサンプル](site/sample.png)
+![実行イメージサンプル](site/sample.png)
 
 
 ## 参考
